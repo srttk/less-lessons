@@ -1,0 +1,26 @@
+@theme-bg:#ddd;
+@theme-hd-color:#f56;
+.themebg() {
+	background: @theme-bg;
+	border-radius:10px;
+}
+.roundcorner(@radius:5px){
+border-radius: @radius;
+}
+body{
+	margin: auto;
+	width: 50%;
+	font-family: Helvetica;
+}
+h1{
+	color:@theme-hd-color;
+	padding:10px;
+	.themebg();
+}
+h1 p{
+	background-color: #001;
+	color: #8BD829;
+	font-size: 14px;
+	padding: 10px;
+	.roundcorner(3px);
+}
