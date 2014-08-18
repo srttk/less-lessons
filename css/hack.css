@@ -1,0 +1,19 @@
+/* 
+Project Hack.css
+Author 	: Sarath
+Web		:http://saratonite.github.io
+github 	:http://github.com/saratonite/less-lessons
+
+*/
+/* The variables */
+/* The Mixin file */
+/*! Styles */
+body {
+  width: 300px;
+  margin: auto;
+}
+p.hack {
+  color: #5baa08;
+  font-family: Courier;
+  background-color: #000000;
+}
