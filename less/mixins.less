@@ -1,7 +1,11 @@
 /* The Mixin file */
 
+.roundedCorner(@r:5px){
+	border-radius:@r;
+}
 .hackArea(){
 	color:@hack-color;
 	font-family:@hack-font;
 	background-color:@hack-bg;
+	.roundedCorner(5px);
 }
